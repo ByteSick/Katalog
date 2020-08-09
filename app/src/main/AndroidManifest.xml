@@ -6,4 +6,5 @@ package="com.example.coindex">
     <application
         android:name=".CoinDexApp"
         android:allowBackup="true"
-        android:icon="@drawable/li
+        android:icon="@drawable/list"
+        android:label="@string/a
