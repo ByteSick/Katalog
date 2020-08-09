@@ -4,4 +4,5 @@ package="com.example.coindex">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <application
-        android:name=".CoinDexAp
+        android:name=".CoinDexApp"
+        android:allowBa
