@@ -5,4 +5,5 @@ package="com.example.coindex">
     <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:name=".CoinDexApp"
-        android:allowBa
+        android:allowBackup="true"
+        android:icon="@drawable/li
