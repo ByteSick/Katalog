@@ -8,4 +8,5 @@ package="com.example.coindex">
         android:allowBackup="true"
         android:icon="@drawable/list"
         android:label="@string/app_name"
-        android:supportsRtl
+        android:supportsRtl="true"
+        android:theme="@s
