@@ -11,4 +11,5 @@ package="com.example.coindex">
         android:supportsRtl="true"
         android:theme="@style/Theme.CoinDex"
         >
-        
+        <activity
+            android:name=".pre
