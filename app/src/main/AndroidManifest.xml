@@ -13,4 +13,5 @@ package="com.example.coindex">
         >
         <activity
             android:name=".presentation.MainActivity"
-            android:ex
+            android:exported="true">
+            <intent-filt
