@@ -20,4 +20,6 @@ package="com.example.coindex">
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </applicat
+    </application>
+
+</manifest>
