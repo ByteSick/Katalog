@@ -18,4 +18,6 @@ package="com.example.coindex">
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </inten
+            </intent-filter>
+        </activity>
+    </applicat
