@@ -1,3 +1,4 @@
 package com.example.coindex.data.map
 
-impor
+import com.example.coindex.data.remote.dto.CoinDto
+imp
