@@ -7,4 +7,5 @@ import com.example.coindex.domain.model.CoinInfo
 
     fun CoinDto.toCoin(): Coin {
         return Coin (
-   
+            id = id,
+            isActive = isActi
