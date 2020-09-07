@@ -10,4 +10,6 @@ import com.example.coindex.domain.model.CoinInfo
             id = id,
             isActive = isActive,
             name = name,
-         
+            rank = rank,
+            symbol = symbol
+     
