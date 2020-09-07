@@ -12,4 +12,6 @@ import com.example.coindex.domain.model.CoinInfo
             name = name,
             rank = rank,
             symbol = symbol
-     
+        )
+    }
+    fun CoinInfoDto
