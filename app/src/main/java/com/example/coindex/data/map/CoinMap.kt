@@ -14,4 +14,5 @@ import com.example.coindex.domain.model.CoinInfo
             symbol = symbol
         )
     }
-    fun CoinInfoDto
+    fun CoinInfoDto.toCoinInfo(): CoinInfo {
+        return CoinInfo
