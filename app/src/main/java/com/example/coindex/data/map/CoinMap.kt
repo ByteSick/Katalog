@@ -17,4 +17,5 @@ import com.example.coindex.domain.model.CoinInfo
     fun CoinInfoDto.toCoinInfo(): CoinInfo {
         return CoinInfo (
             coinId = id,
-            name = nam
+            name = name,
+            description = description,
