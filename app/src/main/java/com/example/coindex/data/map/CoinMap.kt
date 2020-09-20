@@ -20,3 +20,5 @@ import com.example.coindex.domain.model.CoinInfo
             name = name,
             description = description,
             symbol = symbol,
+            rank = rank,
+            i
