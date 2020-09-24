@@ -21,4 +21,5 @@ import com.example.coindex.domain.model.CoinInfo
             description = description,
             symbol = symbol,
             rank = rank,
-            i
+            isActive = isActive,
+            tags = tags.map 
