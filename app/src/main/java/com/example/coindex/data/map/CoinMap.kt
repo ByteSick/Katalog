@@ -24,4 +24,5 @@ import com.example.coindex.domain.model.CoinInfo
             isActive = isActive,
             tags = tags.map { it.name },
             team = team
-        
+        )
+    }
