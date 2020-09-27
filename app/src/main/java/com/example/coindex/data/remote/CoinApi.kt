@@ -6,4 +6,6 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 
 // CoinPaprika API
-interface CoinAp
+interface CoinApi {
+    @GET("/v1/coins")
+    sus
