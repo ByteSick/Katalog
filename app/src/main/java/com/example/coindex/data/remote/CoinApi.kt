@@ -5,3 +5,5 @@ import com.example.coindex.data.remote.dto.CoinInfoDto
 import retrofit2.http.GET
 import retrofit2.http.Path
 
+// CoinPaprika API
+interface CoinAp
