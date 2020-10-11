@@ -8,4 +8,6 @@ import retrofit2.http.Path
 // CoinPaprika API
 interface CoinApi {
     @GET("/v1/coins")
-    sus
+    suspend fun getCoins(): List<CoinDto>
+
+    @
