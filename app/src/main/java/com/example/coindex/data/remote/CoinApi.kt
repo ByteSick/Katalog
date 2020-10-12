@@ -10,4 +10,5 @@ interface CoinApi {
     @GET("/v1/coins")
     suspend fun getCoins(): List<CoinDto>
 
-    @
+    @GET("/v1/coins/{coinId}")
+    suspen
