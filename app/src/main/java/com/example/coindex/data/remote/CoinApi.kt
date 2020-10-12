@@ -11,4 +11,4 @@ interface CoinApi {
     suspend fun getCoins(): List<CoinDto>
 
     @GET("/v1/coins/{coinId}")
-    suspen
+    suspend fun getCoinById(@Path("coinId") coi
