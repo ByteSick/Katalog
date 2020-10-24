@@ -8,4 +8,5 @@ data class CoinDto(
     val id: String,
     @SerializedName("is_active")
     val isActive: Boolean,
-    @Seri
+    @SerializedName("is_new")
+    val isNew:
