@@ -17,4 +17,5 @@ data class CoinDto(
     @SerializedName("symbol")
     val symbol: String,
     @SerializedName("type")
-    val 
+    val type: String
+)
