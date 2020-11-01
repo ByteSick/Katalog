@@ -7,4 +7,4 @@ data class CoinInfoDto(
     @SerializedName("description")
     val description: String,
     @SerializedName("development_status")
- 
+    val developmentStatus: String,
