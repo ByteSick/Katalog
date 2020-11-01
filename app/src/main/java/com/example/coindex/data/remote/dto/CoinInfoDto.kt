@@ -4,4 +4,6 @@ import com.example.coindex.domain.model.CoinInfo
 import com.google.gson.annotations.SerializedName
 
 data class CoinInfoDto(
-    @SerializedName(
+    @SerializedName("description")
+    val description: String,
+    
