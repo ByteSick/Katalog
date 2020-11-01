@@ -6,4 +6,5 @@ import com.google.gson.annotations.SerializedName
 data class CoinInfoDto(
     @SerializedName("description")
     val description: String,
-    
+    @SerializedName("development_status")
+ 
