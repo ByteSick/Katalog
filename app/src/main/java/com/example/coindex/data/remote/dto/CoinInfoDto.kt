@@ -8,3 +8,5 @@ data class CoinInfoDto(
     val description: String,
     @SerializedName("development_status")
     val developmentStatus: String,
+    @SerializedName("first_data_at")
+    val f
