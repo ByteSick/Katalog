@@ -10,4 +10,5 @@ data class CoinInfoDto(
     val developmentStatus: String,
     @SerializedName("first_data_at")
     val firstDataAt: String,
-    @SerializedName("ha
+    @SerializedName("hardware_wallet")
+    val hardwareWallet: B
