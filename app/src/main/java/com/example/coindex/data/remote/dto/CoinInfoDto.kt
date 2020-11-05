@@ -9,4 +9,5 @@ data class CoinInfoDto(
     @SerializedName("development_status")
     val developmentStatus: String,
     @SerializedName("first_data_at")
-    val f
+    val firstDataAt: String,
+    @SerializedName("ha
