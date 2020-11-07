@@ -17,4 +17,5 @@ data class CoinInfoDto(
     @SerializedName("id")
     val id: String,
     @SerializedName("is_active")
-    va
+    val isActive: Boolean,
+    @SerializedNa
