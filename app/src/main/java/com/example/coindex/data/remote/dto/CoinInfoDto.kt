@@ -14,4 +14,6 @@ data class CoinInfoDto(
     val hardwareWallet: Boolean,
     @SerializedName("hash_algorithm")
     val hashAlgorithm: String,
-    @Serialized
+    @SerializedName("id")
+    val id: String,
+    @Ser
