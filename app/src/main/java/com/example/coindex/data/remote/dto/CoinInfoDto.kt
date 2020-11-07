@@ -16,4 +16,5 @@ data class CoinInfoDto(
     val hashAlgorithm: String,
     @SerializedName("id")
     val id: String,
-    @Ser
+    @SerializedName("is_active")
+    va
