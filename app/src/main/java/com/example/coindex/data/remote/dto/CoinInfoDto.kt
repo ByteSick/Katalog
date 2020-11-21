@@ -20,4 +20,5 @@ data class CoinInfoDto(
     val isActive: Boolean,
     @SerializedName("is_new")
     val isNew: Boolean,
-    @Ser
+    @SerializedName("last_data_at")
+    val lastD
