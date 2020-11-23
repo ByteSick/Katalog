@@ -22,4 +22,6 @@ data class CoinInfoDto(
     val isNew: Boolean,
     @SerializedName("last_data_at")
     val lastDataAt: String,
-    @SerializedName("li
+    @SerializedName("links")
+    val links: Links,
+    @Seri
