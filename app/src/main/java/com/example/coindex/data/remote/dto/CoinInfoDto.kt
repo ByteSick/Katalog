@@ -24,4 +24,5 @@ data class CoinInfoDto(
     val lastDataAt: String,
     @SerializedName("links")
     val links: Links,
-    @Seri
+    @SerializedName("links_extended")
+    v
