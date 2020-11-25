@@ -27,4 +27,5 @@ data class CoinInfoDto(
     @SerializedName("links_extended")
     val linksExtended: List<LinksExtended>,
     @SerializedName("message")
-    val mess
+    val message: String,
+    @SerializedNa
