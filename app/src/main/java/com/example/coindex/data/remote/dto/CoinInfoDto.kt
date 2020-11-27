@@ -28,4 +28,6 @@ data class CoinInfoDto(
     val linksExtended: List<LinksExtended>,
     @SerializedName("message")
     val message: String,
-    @SerializedNa
+    @SerializedName("name")
+    val name: String,
+    @
