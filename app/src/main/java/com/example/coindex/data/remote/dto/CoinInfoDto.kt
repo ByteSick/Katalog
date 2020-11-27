@@ -30,4 +30,5 @@ data class CoinInfoDto(
     val message: String,
     @SerializedName("name")
     val name: String,
-    @
+    @SerializedName("open_source")
+    v
