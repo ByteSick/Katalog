@@ -36,4 +36,6 @@ data class CoinInfoDto(
     val orgStructure: String,
     @SerializedName("proof_type")
     val proofType: String,
-    @SerializedName("ra
+    @SerializedName("rank")
+    val rank: Int,
+    @SerializedNa
