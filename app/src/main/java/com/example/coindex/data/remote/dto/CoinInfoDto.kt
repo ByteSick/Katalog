@@ -32,4 +32,6 @@ data class CoinInfoDto(
     val name: String,
     @SerializedName("open_source")
     val openSource: Boolean,
-    @SerializedName("org_s
+    @SerializedName("org_structure")
+    val orgStructure: String,
+ 
