@@ -41,4 +41,6 @@ data class CoinInfoDto(
     @SerializedName("started_at")
     val startedAt: String,
     @SerializedName("symbol")
-    val sy
+    val symbol: String,
+    @SerializedName("tags")
+    val ta
