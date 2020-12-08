@@ -39,4 +39,6 @@ data class CoinInfoDto(
     @SerializedName("rank")
     val rank: Int,
     @SerializedName("started_at")
-    val startedAt: Strin
+    val startedAt: String,
+    @SerializedName("symbol")
+    val sy
