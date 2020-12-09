@@ -47,4 +47,5 @@ data class CoinInfoDto(
     @SerializedName("team")
     val team: List<TeamMember>,
     @SerializedName("type")
-    val type
+    val type: String,
+    @SerializedName("wh
