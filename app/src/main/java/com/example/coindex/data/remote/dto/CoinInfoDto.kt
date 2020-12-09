@@ -44,4 +44,6 @@ data class CoinInfoDto(
     val symbol: String,
     @SerializedName("tags")
     val tags: List<Tag>,
-    @SerializedName("te
+    @SerializedName("team")
+    val team: List<TeamMember>,
+  
