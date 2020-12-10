@@ -49,4 +49,5 @@ data class CoinInfoDto(
     @SerializedName("type")
     val type: String,
     @SerializedName("whitepaper")
-    val whitepaper
+    val whitepaper: Whitepaper
+)
