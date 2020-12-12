@@ -1,4 +1,5 @@
 package com.example.coindex.data.remote.dto
 
 data class Links(
-    val explore
+    val explorer: List<String>,
+    val facebook: List<Str
