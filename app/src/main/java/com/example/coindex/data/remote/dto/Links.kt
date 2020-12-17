@@ -5,4 +5,5 @@ data class Links(
     val facebook: List<String>,
     val reddit: List<String>,
     val source_code: List<String>,
-    val we
+    val website: List<String>,
+    val 
