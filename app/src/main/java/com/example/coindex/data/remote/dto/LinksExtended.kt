@@ -1,3 +1,5 @@
 package com.example.coindex.data.remote.dto
 
-data class L
+data class LinksExtended(
+    val stats: Stats,
+    val ty
