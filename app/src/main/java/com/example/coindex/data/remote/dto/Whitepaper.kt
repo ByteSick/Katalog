@@ -1,1 +1,4 @@
-package com.example.coindex.data.remote
+package com.example.coindex.data.remote.dto
+
+data class Whitepaper(
+    val link: S
