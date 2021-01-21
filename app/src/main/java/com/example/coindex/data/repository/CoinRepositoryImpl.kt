@@ -6,3 +6,4 @@ import com.example.coindex.data.remote.dto.CoinInfoDto
 import com.example.coindex.domain.repository.CoinRepository
 import javax.inject.Inject
 
+class CoinRepositoryImpl @Inject construct
