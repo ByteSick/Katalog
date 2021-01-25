@@ -10,4 +10,6 @@ class CoinRepositoryImpl @Inject constructor(
     private val coinApi: CoinApi
 ) : CoinRepository {
     override suspend fun getCoins(): List<CoinDto> {
-        return coinApi.getCoins
+        return coinApi.getCoins()
+    }
+    override suspend fun getCoinById(c
