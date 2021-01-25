@@ -9,4 +9,5 @@ import javax.inject.Inject
 class CoinRepositoryImpl @Inject constructor(
     private val coinApi: CoinApi
 ) : CoinRepository {
-    override suspend fun getCo
+    override suspend fun getCoins(): List<CoinDto> {
+        return coinApi.getCoins
