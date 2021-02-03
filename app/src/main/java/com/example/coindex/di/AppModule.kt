@@ -6,4 +6,5 @@ import com.example.coindex.data.repository.CoinRepositoryImpl
 import com.example.coindex.domain.repository.CoinRepository
 import dagger.Module
 import dagger.Provides
-i
+import dagger.hilt.InstallIn
+import dagger.h
