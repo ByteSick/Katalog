@@ -7,4 +7,5 @@ import com.example.coindex.domain.repository.CoinRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
-import dagger.h
+import dagger.hilt.components.SingletonComponent
+import r
