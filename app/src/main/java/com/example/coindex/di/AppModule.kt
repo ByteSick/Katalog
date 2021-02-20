@@ -13,4 +13,5 @@ import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
 @Module
-@In
+@InstallIn(SingletonComponent::class)
+object AppMo
