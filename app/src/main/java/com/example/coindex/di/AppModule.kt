@@ -22,4 +22,7 @@ object AppModule {
             .baseUrl(Constants.BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
-           
+            .create(CoinApi::class.java)
+    }
+
+  
