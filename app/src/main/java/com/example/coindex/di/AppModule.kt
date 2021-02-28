@@ -25,4 +25,6 @@ object AppModule {
             .create(CoinApi::class.java)
     }
 
-  
+    @Provides
+    @Singleton
+    fu
