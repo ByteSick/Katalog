@@ -4,4 +4,5 @@ import com.example.coindex.data.remote.dto.TeamMember
 
 data class CoinInfo (
     val coinId: String,
-    val n
+    val name: String,
+    val description: String,
