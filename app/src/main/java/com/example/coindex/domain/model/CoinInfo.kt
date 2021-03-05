@@ -6,3 +6,6 @@ data class CoinInfo (
     val coinId: String,
     val name: String,
     val description: String,
+    val symbol: String,
+    val rank: Int,
+    
