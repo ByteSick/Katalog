@@ -9,4 +9,5 @@ data class CoinInfo (
     val symbol: String,
     val rank: Int,
     val isActive: Boolean,
-    val tags: List
+    val tags: List<String>,
+    val team: List<TeamMember>
