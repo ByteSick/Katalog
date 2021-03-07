@@ -11,3 +11,4 @@ data class CoinInfo (
     val isActive: Boolean,
     val tags: List<String>,
     val team: List<TeamMember>
+)
