@@ -5,4 +5,5 @@ import com.example.coindex.data.remote.dto.CoinInfoDto
 
 interface CoinRepository {
     suspend fun getCoins(): List<CoinDto>
-    suspend fun getCoinB
+    suspend fun getCoinById(coinId: String): CoinInfoDto
+}
