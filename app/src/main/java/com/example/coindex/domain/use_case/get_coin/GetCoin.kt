@@ -4,4 +4,5 @@ import com.example.coindex.utils.Resource
 import com.example.coindex.domain.model.CoinInfo
 import com.example.coindex.data.map.toCoinInfo
 import com.example.coindex.domain.repository.CoinRepository
-import kotlinx.c
+import kotlinx.coroutines.flow.Flow
+import kotlinx.corout
