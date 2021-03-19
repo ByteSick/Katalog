@@ -5,4 +5,5 @@ import com.example.coindex.domain.model.CoinInfo
 import com.example.coindex.data.map.toCoinInfo
 import com.example.coindex.domain.repository.CoinRepository
 import kotlinx.coroutines.flow.Flow
-import kotlinx.corout
+import kotlinx.coroutines.flow.flow
+import retrofit2.HttpException
