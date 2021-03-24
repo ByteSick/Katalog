@@ -13,4 +13,4 @@ import javax.inject.Inject
 class GetCoin @Inject constructor(
     private val coinRepository: CoinRepository,
 ) {
-    operator f
+    operator fun invoke(coinId: String): Flow<Res
