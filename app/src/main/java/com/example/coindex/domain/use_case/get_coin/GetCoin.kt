@@ -11,4 +11,6 @@ import java.io.IOException
 import javax.inject.Inject
 
 class GetCoin @Inject constructor(
-    private val coinReposito
+    private val coinRepository: CoinRepository,
+) {
+    operator f
