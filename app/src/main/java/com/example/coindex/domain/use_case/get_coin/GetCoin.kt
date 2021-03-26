@@ -16,4 +16,5 @@ class GetCoin @Inject constructor(
     operator fun invoke(coinId: String): Flow<Resource<CoinInfo>> = flow {
 
         try {
-     
+            emit(Resource.Loading())
+            v
