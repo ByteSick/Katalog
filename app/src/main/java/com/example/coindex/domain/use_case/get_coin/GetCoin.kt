@@ -17,4 +17,5 @@ class GetCoin @Inject constructor(
 
         try {
             emit(Resource.Loading())
-            val coin = coinRepository.getCoinById(coinId)
+            val coin = coinRepository.getCoinById(coinId).toCoinInfo()
+            emit(Resour
