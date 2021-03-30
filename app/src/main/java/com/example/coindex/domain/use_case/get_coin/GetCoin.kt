@@ -19,4 +19,5 @@ class GetCoin @Inject constructor(
             emit(Resource.Loading())
             val coin = coinRepository.getCoinById(coinId).toCoinInfo()
             emit(Resource.Success<CoinInfo>(coin))
-        } 
+        } catch (e: HttpException) {
+            
