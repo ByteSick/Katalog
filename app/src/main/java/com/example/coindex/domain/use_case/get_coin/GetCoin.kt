@@ -20,4 +20,5 @@ class GetCoin @Inject constructor(
             val coin = coinRepository.getCoinById(coinId).toCoinInfo()
             emit(Resource.Success<CoinInfo>(coin))
         } catch (e: HttpException) {
-            emit(Resource.Error<CoinInfo>(e.localizedMessa
+            emit(Resource.Error<CoinInfo>(e.localizedMessage ?: "An unexpected error occurred"))
+       
