@@ -21,4 +21,5 @@ class GetCoin @Inject constructor(
             emit(Resource.Success<CoinInfo>(coin))
         } catch (e: HttpException) {
             emit(Resource.Error<CoinInfo>(e.localizedMessage ?: "An unexpected error occurred"))
-       
+        } catch (e: IOException) {
+     
