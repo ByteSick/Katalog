@@ -22,4 +22,4 @@ class GetCoin @Inject constructor(
         } catch (e: HttpException) {
             emit(Resource.Error<CoinInfo>(e.localizedMessage ?: "An unexpected error occurred"))
         } catch (e: IOException) {
-            emit(Resource.Error<CoinInfo>("
+            emit(Resource.Error<CoinInfo>("Could not reach server. Check internet conne
