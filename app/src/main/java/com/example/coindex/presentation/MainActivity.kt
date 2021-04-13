@@ -8,4 +8,5 @@ import androidx.compose.material.Surface
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.coindex.presentation.coin_info.CoinInfoS
+import com.example.coindex.presentation.coin_info.CoinInfoScreen
+import com.example.coindex.present
