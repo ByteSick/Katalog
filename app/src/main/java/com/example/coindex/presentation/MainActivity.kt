@@ -10,4 +10,4 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.coindex.presentation.coin_info.CoinInfoScreen
 import com.example.coindex.presentation.coin_list.CoinListScreen
-imp
+import com.example.coindex.presentation.
