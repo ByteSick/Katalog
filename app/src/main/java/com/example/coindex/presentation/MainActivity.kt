@@ -11,4 +11,6 @@ import androidx.navigation.compose.rememberNavController
 import com.example.coindex.presentation.coin_info.CoinInfoScreen
 import com.example.coindex.presentation.coin_list.CoinListScreen
 import com.example.coindex.presentation.ui.theme.CoinDexTheme
-import dagger.hi
+import dagger.hilt.android.AndroidEntryPoint
+
+@AndroidEntryPoin
