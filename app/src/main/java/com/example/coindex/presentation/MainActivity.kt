@@ -13,4 +13,7 @@ import com.example.coindex.presentation.coin_list.CoinListScreen
 import com.example.coindex.presentation.ui.theme.CoinDexTheme
 import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoin
+@AndroidEntryPoint
+
+
+class MainActivity : ComponentActivit
