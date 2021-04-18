@@ -16,4 +16,5 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 
 
-class MainActivity : ComponentActivit
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstan
