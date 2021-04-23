@@ -21,4 +21,4 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             CoinDexTheme {
-              
+                Surface(color = MaterialTheme.colors.ba
