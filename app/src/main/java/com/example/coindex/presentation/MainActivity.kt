@@ -23,4 +23,5 @@ class MainActivity : ComponentActivity() {
             CoinDexTheme {
                 Surface(color = MaterialTheme.colors.background) {
                     val navController = rememberNavController()
-   
+                    NavHost(
+     
