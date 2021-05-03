@@ -29,4 +29,5 @@ class MainActivity : ComponentActivity() {
                     ) {
                         composable(
                             route = Screen.CoinListScreen.route
-                      
+                        ) {
+                        
