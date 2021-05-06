@@ -32,4 +32,5 @@ class MainActivity : ComponentActivity() {
                         ) {
                             CoinListScreen(navController)
                         }
-                      
+                        composable(
+                     
