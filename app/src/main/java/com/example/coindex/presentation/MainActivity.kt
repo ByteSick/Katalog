@@ -33,4 +33,5 @@ class MainActivity : ComponentActivity() {
                             CoinListScreen(navController)
                         }
                         composable(
-                            route = Screen.CoinInfoScreen.r
+                            route = Screen.CoinInfoScreen.route + "/{coinId}"
+                   
