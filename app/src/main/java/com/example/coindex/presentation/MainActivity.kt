@@ -35,4 +35,6 @@ class MainActivity : ComponentActivity() {
                         composable(
                             route = Screen.CoinInfoScreen.route + "/{coinId}"
                         ) {
-                            Coi
+                            CoinInfoScreen()
+                        }
+      
