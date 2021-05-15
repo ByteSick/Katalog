@@ -1,3 +1,4 @@
 package com.example.coindex.presentation.coin_info
 
-import andro
+import android.content.res.Resources.Theme
+import 
