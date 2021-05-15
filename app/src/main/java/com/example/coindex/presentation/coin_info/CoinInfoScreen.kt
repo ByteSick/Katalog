@@ -1,4 +1,5 @@
 package com.example.coindex.presentation.coin_info
 
 import android.content.res.Resources.Theme
-import 
+import androidx.compose.foundation.layout.*
+im
