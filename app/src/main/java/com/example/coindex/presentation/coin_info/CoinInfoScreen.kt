@@ -4,4 +4,4 @@ import android.content.res.Resources.Theme
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.co
+import androidx.compose.material.CircularProgressIndica
