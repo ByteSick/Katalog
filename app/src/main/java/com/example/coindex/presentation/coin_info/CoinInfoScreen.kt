@@ -16,4 +16,5 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.example.coindex.presentation.
+import com.example.coindex.presentation.coin_info.components.CoinTag
+import com.example
