@@ -20,4 +20,6 @@ import com.example.coindex.presentation.coin_info.components.CoinTag
 import com.example.coindex.presentation.coin_info.components.TeamListItem
 import com.google.accompanist.flowlayout.FlowRow
 
-@Composa
+@Composable
+fun CoinInfoScreen(
+    viewModel: Co
