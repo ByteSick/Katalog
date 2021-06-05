@@ -25,4 +25,5 @@ fun CoinInfoScreen(
     viewModel: CoinInfoViewModel = hiltViewModel()
 ){
     val state = viewModel.state.value
-    Box(modifier = Modifier.
+    Box(modifier = Modifier.fillMaxSize()){
+        state.coin?.let
