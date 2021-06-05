@@ -24,4 +24,5 @@ import com.google.accompanist.flowlayout.FlowRow
 fun CoinInfoScreen(
     viewModel: CoinInfoViewModel = hiltViewModel()
 ){
-    val state = viewModel.state.val
+    val state = viewModel.state.value
+    Box(modifier = Modifier.
