@@ -26,4 +26,6 @@ fun CoinInfoScreen(
 ){
     val state = viewModel.state.value
     Box(modifier = Modifier.fillMaxSize()){
-        state.coin?.let
+        state.coin?.let {
+            coin ->
+            LazyCol
