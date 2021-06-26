@@ -29,4 +29,5 @@ fun CoinInfoScreen(
         state.coin?.let {
             coin ->
             LazyColumn(
-                modifier = Modifie
+                modifier = Modifier.fillMaxSize(),
+                conte
