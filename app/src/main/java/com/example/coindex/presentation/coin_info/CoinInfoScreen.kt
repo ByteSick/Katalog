@@ -30,4 +30,5 @@ fun CoinInfoScreen(
             coin ->
             LazyColumn(
                 modifier = Modifier.fillMaxSize(),
-                conte
+                contentPadding = PaddingValues(20.dp)
+       
