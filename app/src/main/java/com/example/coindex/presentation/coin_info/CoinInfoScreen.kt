@@ -33,4 +33,5 @@ fun CoinInfoScreen(
                 contentPadding = PaddingValues(20.dp)
             ){
                 item {
-     
+                    Row(
+                    
