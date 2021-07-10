@@ -34,4 +34,4 @@ fun CoinInfoScreen(
             ){
                 item {
                     Row(
-                    
+                        modifier = Modifier.fillMaxW
