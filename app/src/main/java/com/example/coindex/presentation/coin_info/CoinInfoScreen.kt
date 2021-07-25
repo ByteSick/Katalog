@@ -35,4 +35,5 @@ fun CoinInfoScreen(
                 item {
                     Row(
                         modifier = Modifier.fillMaxWidth(),
-                        horizontalAr
+                        horizontalArrangement = Arrangement.SpaceBetween
+             
