@@ -38,4 +38,4 @@ fun CoinInfoScreen(
                         horizontalArrangement = Arrangement.SpaceBetween
                     ){
                         Text(
-        
+                            text = "${coin.rank}. ${coin.name
