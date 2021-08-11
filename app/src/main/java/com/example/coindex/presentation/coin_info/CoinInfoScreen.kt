@@ -40,4 +40,4 @@ fun CoinInfoScreen(
                         Text(
                             text = "${coin.rank}. ${coin.name} (${coin.symbol})",
                             style = MaterialTheme.typography.h2,
-              
+                            modifier = Modifier.weight(8f
