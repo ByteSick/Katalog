@@ -42,4 +42,5 @@ fun CoinInfoScreen(
                             style = MaterialTheme.typography.h2,
                             modifier = Modifier.weight(8f)
                         )
-                
+                        Text(
+                            text = if(c
