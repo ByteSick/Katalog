@@ -44,4 +44,4 @@ fun CoinInfoScreen(
                         )
                         Text(
                             text = if(coin.isActive) "active" else "inactive",
-                            color = if(coin.isActive
+                            color = if(coin.isActive) MaterialTheme.colors.primary else Color.Red,
