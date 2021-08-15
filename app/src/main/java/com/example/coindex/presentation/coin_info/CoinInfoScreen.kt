@@ -43,4 +43,5 @@ fun CoinInfoScreen(
                             modifier = Modifier.weight(8f)
                         )
                         Text(
-                            text = if(c
+                            text = if(coin.isActive) "active" else "inactive",
+      
