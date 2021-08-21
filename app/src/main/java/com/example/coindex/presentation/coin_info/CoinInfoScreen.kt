@@ -47,4 +47,5 @@ fun CoinInfoScreen(
                             color = if(coin.isActive) MaterialTheme.colors.primary else Color.Red,
                             fontStyle = FontStyle.Italic,
                             textAlign = TextAlign.End,
-              
+                            modifier = Modifier
+               
