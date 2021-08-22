@@ -48,4 +48,4 @@ fun CoinInfoScreen(
                             fontStyle = FontStyle.Italic,
                             textAlign = TextAlign.End,
                             modifier = Modifier
-               
+                                .align(Alignment.Ce
