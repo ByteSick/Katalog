@@ -51,4 +51,5 @@ fun CoinInfoScreen(
                                 .align(Alignment.CenterVertically)
                                 .weight(2f)
                         )
-      
+                    }
+                    Spacer(modifie
