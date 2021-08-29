@@ -49,4 +49,6 @@ fun CoinInfoScreen(
                             textAlign = TextAlign.End,
                             modifier = Modifier
                                 .align(Alignment.CenterVertically)
-                                .weigh
+                                .weight(2f)
+                        )
+      
