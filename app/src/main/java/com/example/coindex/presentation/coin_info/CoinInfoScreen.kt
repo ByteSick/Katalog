@@ -52,4 +52,5 @@ fun CoinInfoScreen(
                                 .weight(2f)
                         )
                     }
-                    Spacer(modifie
+                    Spacer(modifier = Modifier.height(15.dp))
+          
