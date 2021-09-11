@@ -56,4 +56,5 @@ fun CoinInfoScreen(
                     Text(
                         text = coin.description,
                         style = MaterialTheme.typography.body2
-   
+                    )
+                    Spacer(modi
