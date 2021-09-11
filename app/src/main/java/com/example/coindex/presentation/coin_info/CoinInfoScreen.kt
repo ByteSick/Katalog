@@ -57,4 +57,5 @@ fun CoinInfoScreen(
                         text = coin.description,
                         style = MaterialTheme.typography.body2
                     )
-                    Spacer(modi
+                    Spacer(modifier = Modifier.height(15.dp))
+          
