@@ -66,4 +66,5 @@ fun CoinInfoScreen(
                     FlowRow(
                         mainAxisSpacing = 10.dp,
                         crossAxisSpacing = 10.dp
-         
+                    ){
+                   
