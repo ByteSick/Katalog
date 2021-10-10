@@ -71,3 +71,4 @@ fun CoinInfoScreen(
                             CoinTag(tag = tag)
                         }
                     }
+                    Spacer(modifie
