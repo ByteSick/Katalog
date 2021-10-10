@@ -68,4 +68,5 @@ fun CoinInfoScreen(
                         crossAxisSpacing = 10.dp
                     ){
                         coin.tags.forEach { tag ->
-         
+                            CoinTag(tag = tag)
+              
