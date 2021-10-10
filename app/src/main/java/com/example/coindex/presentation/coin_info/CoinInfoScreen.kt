@@ -69,4 +69,5 @@ fun CoinInfoScreen(
                     ){
                         coin.tags.forEach { tag ->
                             CoinTag(tag = tag)
-              
+                        }
+                    }
