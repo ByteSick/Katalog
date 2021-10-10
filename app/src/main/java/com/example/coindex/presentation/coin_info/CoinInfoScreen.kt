@@ -71,4 +71,5 @@ fun CoinInfoScreen(
                             CoinTag(tag = tag)
                         }
                     }
-                    Spacer(modifie
+                    Spacer(modifier = Modifier.height(15.dp))
+                
