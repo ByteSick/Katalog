@@ -72,4 +72,5 @@ fun CoinInfoScreen(
                         }
                     }
                     Spacer(modifier = Modifier.height(15.dp))
-                
+                    Text(
+                        text
