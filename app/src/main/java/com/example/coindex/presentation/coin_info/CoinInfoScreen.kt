@@ -75,4 +75,5 @@ fun CoinInfoScreen(
                     Text(
                         text = "Team Members",
                         style = MaterialTheme.typography.h3
-  
+                    )
+                
