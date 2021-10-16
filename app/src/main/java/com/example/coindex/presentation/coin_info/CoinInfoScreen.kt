@@ -76,4 +76,4 @@ fun CoinInfoScreen(
                         text = "Team Members",
                         style = MaterialTheme.typography.h3
                     )
-                
+                    Spacer(modifier = Modifier.hei
