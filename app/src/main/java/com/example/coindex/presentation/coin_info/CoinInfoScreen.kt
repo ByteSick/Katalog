@@ -80,4 +80,5 @@ fun CoinInfoScreen(
                 }
                 items(coin.team){ teamMember ->
                     TeamListItem(
-       
+                        teamMember = teamMember,
+                  
