@@ -82,4 +82,5 @@ fun CoinInfoScreen(
                     TeamListItem(
                         teamMember = teamMember,
                         modifier = Modifier
-                            .fillMaxWi
+                            .fillMaxWidth()
+                            .paddi
