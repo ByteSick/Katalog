@@ -83,4 +83,5 @@ fun CoinInfoScreen(
                         teamMember = teamMember,
                         modifier = Modifier
                             .fillMaxWidth()
-                            .paddi
+                            .padding(bottom = 15.dp)
+                    )
