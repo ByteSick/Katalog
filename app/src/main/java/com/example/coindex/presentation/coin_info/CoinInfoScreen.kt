@@ -86,4 +86,5 @@ fun CoinInfoScreen(
                             .padding(bottom = 15.dp)
                     )
                     Divider()
-        
+                }
+            } // end lazy colu
