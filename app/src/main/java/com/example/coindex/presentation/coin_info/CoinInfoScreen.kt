@@ -87,4 +87,6 @@ fun CoinInfoScreen(
                     )
                     Divider()
                 }
-            } // end lazy colu
+            } // end lazy column
+        }
+        if(state.error.isNotBla
