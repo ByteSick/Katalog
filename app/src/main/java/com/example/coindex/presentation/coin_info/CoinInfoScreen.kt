@@ -89,4 +89,6 @@ fun CoinInfoScreen(
                 }
             } // end lazy column
         }
-        if(state.error.isNotBla
+        if(state.error.isNotBlank()) {
+            Text(
+             
