@@ -91,4 +91,5 @@ fun CoinInfoScreen(
         }
         if(state.error.isNotBlank()) {
             Text(
-             
+                text = state.error,
+                color = Materia
