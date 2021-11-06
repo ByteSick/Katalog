@@ -93,4 +93,5 @@ fun CoinInfoScreen(
             Text(
                 text = state.error,
                 color = MaterialTheme.colors.error,
-                textAlign
+                textAlign = TextAlign.Center,
+                modi
