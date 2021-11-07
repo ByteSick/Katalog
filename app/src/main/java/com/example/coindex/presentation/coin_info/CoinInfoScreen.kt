@@ -95,4 +95,5 @@ fun CoinInfoScreen(
                 color = MaterialTheme.colors.error,
                 textAlign = TextAlign.Center,
                 modifier = Modifier
-                 
+                    .fillMaxWidth()
+                    
