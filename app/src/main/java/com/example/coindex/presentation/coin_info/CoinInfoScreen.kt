@@ -98,4 +98,6 @@ fun CoinInfoScreen(
                     .fillMaxWidth()
                     .padding(horizontal = 20.dp)
                     .align(Alignment.Center)
-      
+            )
+        }
+        if(state.isLoa
