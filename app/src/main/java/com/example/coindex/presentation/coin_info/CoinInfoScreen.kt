@@ -101,4 +101,5 @@ fun CoinInfoScreen(
             )
         }
         if(state.isLoading){
-            CircularProgre
+            CircularProgressIndicator(
+                modifier = Mod
