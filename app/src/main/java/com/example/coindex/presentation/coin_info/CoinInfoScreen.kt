@@ -100,4 +100,5 @@ fun CoinInfoScreen(
                     .align(Alignment.Center)
             )
         }
-        if(state.isLoa
+        if(state.isLoading){
+            CircularProgre
