@@ -102,4 +102,5 @@ fun CoinInfoScreen(
         }
         if(state.isLoading){
             CircularProgressIndicator(
-                modifier = Mod
+                modifier = Modifier.align(Alignment.Center)
+        
