@@ -30,3 +30,16 @@ class CoinInfoViewModel @Inject constructor (
     private fun getCoin(coinId: String){
         getCoinUseCase(coinId).onEach { result ->
             when(result) {
+                is Resource.Success -> {
+                    _state.value = CoinInfoState(coin = result.data)
+                }
+                is Resource.Error -> {
+                    _state.value = CoinInfoState(error = result.message ?: "An unexpected error occurred")
+                }
+                is Resource.Loading -> {
+                    _state.value = CoinInfoState(isLoading = true)
+                }
+            }
+        }.launchIn(viewModelScope)
+    }
+}
