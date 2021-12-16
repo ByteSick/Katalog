@@ -16,4 +16,5 @@ fun CoinTag(
     tag: String
 ) {
     Box(
-       
+        modifier = Modifier
+            .border
