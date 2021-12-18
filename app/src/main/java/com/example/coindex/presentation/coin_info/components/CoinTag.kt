@@ -17,4 +17,6 @@ fun CoinTag(
 ) {
     Box(
         modifier = Modifier
-            .border
+            .border(
+                width = 1.dp,
+          
