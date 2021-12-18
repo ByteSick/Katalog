@@ -22,4 +22,6 @@ fun CoinTag(
                 color = MaterialTheme.colors.primary,
                 shape = RoundedCornerShape(100.dp)
             )
-           
+            .padding(10.dp)
+    ){
+        Te
