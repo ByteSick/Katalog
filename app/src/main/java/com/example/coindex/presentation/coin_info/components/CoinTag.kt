@@ -19,4 +19,5 @@ fun CoinTag(
         modifier = Modifier
             .border(
                 width = 1.dp,
-          
+                color = MaterialTheme.colors.primary,
+         
