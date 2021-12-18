@@ -20,4 +20,6 @@ fun CoinTag(
             .border(
                 width = 1.dp,
                 color = MaterialTheme.colors.primary,
-                shape = RoundedCornerShap
+                shape = RoundedCornerShape(100.dp)
+            )
+           
