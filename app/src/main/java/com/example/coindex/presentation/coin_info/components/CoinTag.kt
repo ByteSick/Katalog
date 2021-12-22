@@ -24,4 +24,6 @@ fun CoinTag(
             )
             .padding(10.dp)
     ){
-        Te
+        Text(
+            text = tag,
+            co
