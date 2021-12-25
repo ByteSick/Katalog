@@ -26,4 +26,5 @@ fun CoinTag(
     ){
         Text(
             text = tag,
-            co
+            color = MaterialTheme.colors.primary,
+ 
