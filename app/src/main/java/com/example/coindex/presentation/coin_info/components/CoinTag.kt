@@ -27,4 +27,4 @@ fun CoinTag(
         Text(
             text = tag,
             color = MaterialTheme.colors.primary,
- 
+            textAlign = TextAlign.C
