@@ -28,4 +28,7 @@ fun CoinTag(
             text = tag,
             color = MaterialTheme.colors.primary,
             textAlign = TextAlign.Center,
-            style = MaterialTheme.typograp
+            style = MaterialTheme.typography.body2
+        )
+    }
+}
