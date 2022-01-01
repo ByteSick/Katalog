@@ -4,4 +4,5 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
-import androidx.compose.material.Mat
+import androidx.compose.material.MaterialTheme
+import androidx.compose.mate
