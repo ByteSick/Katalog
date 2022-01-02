@@ -8,4 +8,5 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import com.example.coindex.data.remote.dto.TeamMember
-impor
+import androidx.compose.ui.Modifier
+impo
