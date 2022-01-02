@@ -7,4 +7,5 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import com.exampl
+import com.example.coindex.data.remote.dto.TeamMember
+impor
