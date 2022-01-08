@@ -13,4 +13,6 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.unit.dp
 
 
-@Compos
+@Composable
+fun TeamListItem(
+    teamMember:
