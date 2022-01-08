@@ -9,4 +9,4 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import com.example.coindex.data.remote.dto.TeamMember
 import androidx.compose.ui.Modifier
-impo
+import androidx.compose.ui.text.font.FontStyle
