@@ -15,4 +15,6 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun TeamListItem(
-    teamMember:
+    teamMember: TeamMember,
+    modifier : Modifier = Modifier
+){
