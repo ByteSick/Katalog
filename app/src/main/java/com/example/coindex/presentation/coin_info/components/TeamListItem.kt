@@ -18,3 +18,6 @@ fun TeamListItem(
     teamMember: TeamMember,
     modifier : Modifier = Modifier
 ){
+    Column(
+        modifier = modifier,
+     
