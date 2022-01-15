@@ -20,4 +20,4 @@ fun TeamListItem(
 ){
     Column(
         modifier = modifier,
-     
+        verticalArrangement = Arrangement.Center
