@@ -21,3 +21,7 @@ fun TeamListItem(
     Column(
         modifier = modifier,
         verticalArrangement = Arrangement.Center
+    ){
+        Text (
+            text = teamMember.name,
+    
