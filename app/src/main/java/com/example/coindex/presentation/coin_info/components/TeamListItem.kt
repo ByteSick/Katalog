@@ -24,4 +24,4 @@ fun TeamListItem(
     ){
         Text (
             text = teamMember.name,
-    
+            style = MaterialTheme.typ
