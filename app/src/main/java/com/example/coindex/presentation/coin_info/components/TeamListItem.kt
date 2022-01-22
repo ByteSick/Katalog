@@ -24,4 +24,6 @@ fun TeamListItem(
     ){
         Text (
             text = teamMember.name,
-            style = MaterialTheme.typ
+            style = MaterialTheme.typography.h4
+        )
+        Spacer(modifier =
