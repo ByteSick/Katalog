@@ -28,4 +28,5 @@ fun TeamListItem(
         )
         Spacer(modifier = Modifier.height(4.dp))
         Text(
-    
+            text = teamMember.position,
+         
