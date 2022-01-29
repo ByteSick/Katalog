@@ -30,4 +30,8 @@ fun TeamListItem(
         Text(
             text = teamMember.position,
             style = MaterialTheme.typography.body2,
-            fontStyle = FontStyle.Ita
+            fontStyle = FontStyle.Italic
+        )
+
+    }
+}
