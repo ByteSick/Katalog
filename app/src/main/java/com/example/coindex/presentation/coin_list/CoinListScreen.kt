@@ -20,3 +20,38 @@ import androidx.navigation.NavController
 import com.example.coindex.presentation.Screen
 import com.example.coindex.presentation.coin_list.components.CoinListItem
 
+
+@Composable
+fun CoinListScreen(
+    navController: NavController,
+    viewModel:CoinListViewModel = hiltViewModel()
+) {
+
+    val state = viewModel.state.value
+    Box(modifier = Modifier.fillMaxSize()) {
+        LazyColumn(modifier = Modifier.fillMaxSize()) {
+            items(state.coins) { coin ->
+                CoinListItem(
+                    coin = coin,
+                    onItemClick = {
+                        navController.navigate(Screen.CoinInfoScreen.route + "/${coin.id}")
+                    }
+                )
+            }
+        }       // end lazy column
+        if(state.error.isNotBlank()) {
+            Text(
+                text = state.error,
+                color = MaterialTheme.colors.error,
+                textAlign = TextAlign.Center,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 20.dp)
+                    .align(Alignment.Center)
+            )
+        }
+        if(state.isLoading) {
+            CircularProgressIndicator(modifier = Modifier.align(Alignment.Center))
+        }
+    }
+}
