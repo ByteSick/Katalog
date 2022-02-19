@@ -5,4 +5,4 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.coindex.utils.Resource
-import com.ex
+import com.example.coindex.domain.use_case.get_co
