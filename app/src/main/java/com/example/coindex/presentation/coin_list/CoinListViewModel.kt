@@ -9,4 +9,7 @@ import com.example.coindex.domain.use_case.get_coins.GetCoins
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
-import javax.injec
+import javax.inject.Inject
+
+@HiltViewModel
+class CoinListViewMo
