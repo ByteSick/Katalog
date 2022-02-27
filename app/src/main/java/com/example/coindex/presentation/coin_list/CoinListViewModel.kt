@@ -12,4 +12,5 @@ import kotlinx.coroutines.flow.onEach
 import javax.inject.Inject
 
 @HiltViewModel
-class CoinListViewMo
+class CoinListViewModel @Inject constructor (
+    priva
