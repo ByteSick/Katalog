@@ -19,4 +19,7 @@ class CoinListViewModel @Inject constructor (
     val state: State<CoinListState> = _state
 
     init {
-        ge
+        getCoins()
+    }
+    private fun getCoins(){
+   
