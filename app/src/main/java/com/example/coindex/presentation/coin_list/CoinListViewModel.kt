@@ -25,4 +25,4 @@ class CoinListViewModel @Inject constructor (
         getCoinsUseCase().onEach{ result ->
             when(result){
                 is Resource.Success -> {
-                    _s
+                    _state.value = CoinListState(coins = 
