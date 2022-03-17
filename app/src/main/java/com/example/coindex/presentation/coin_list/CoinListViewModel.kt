@@ -30,4 +30,5 @@ class CoinListViewModel @Inject constructor (
                 is Resource.Error -> {
                     _state.value = CoinListState(error = result.message ?: "An unexpected error occurred")
                 }
-      
+                is Resource.Loading -> {
+               
