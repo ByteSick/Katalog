@@ -1,1 +1,1 @@
-package com.exam
+package com.example.coindex.presentation.coin_list.compon
