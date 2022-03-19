@@ -1,1 +1,3 @@
-package com.example.coindex.presentation.coin_list.compon
+package com.example.coindex.presentation.coin_list.components
+
+import androidx.compose.founda
