@@ -19,4 +19,8 @@ import com.example.coindex.domain.model.Coin
 
 @Composable
 fun CoinListItem(
-    coin: Co
+    coin: Coin,
+    onItemClick: (Coin) -> Unit
+){
+    Row(
+    
