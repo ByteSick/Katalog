@@ -23,4 +23,5 @@ fun CoinListItem(
     onItemClick: (Coin) -> Unit
 ){
     Row(
-    
+        modifier = Modifier
+            .fill
