@@ -24,4 +24,5 @@ fun CoinListItem(
 ){
     Row(
         modifier = Modifier
-            .fill
+            .fillMaxWidth()
+            .clickable { onItemClic
