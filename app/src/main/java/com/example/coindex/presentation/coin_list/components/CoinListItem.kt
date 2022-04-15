@@ -27,4 +27,7 @@ fun CoinListItem(
             .fillMaxWidth()
             .clickable { onItemClick(coin) }
             .padding(20.dp),
-        horizontalArrangement = Arrangement.SpaceBet
+        horizontalArrangement = Arrangement.SpaceBetween
+    ) {
+        Text(
+            text = 
