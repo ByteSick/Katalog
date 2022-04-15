@@ -30,4 +30,4 @@ fun CoinListItem(
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
         Text(
-            text = 
+            text = "${coin.rank}. ${coin.name} ($
