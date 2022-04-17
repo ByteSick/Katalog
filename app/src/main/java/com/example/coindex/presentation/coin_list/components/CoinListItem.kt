@@ -31,4 +31,5 @@ fun CoinListItem(
     ) {
         Text(
             text = "${coin.rank}. ${coin.name} (${coin.symbol})",
-            style = Materia
+            style = MaterialTheme.typography.body1,
+            ove
