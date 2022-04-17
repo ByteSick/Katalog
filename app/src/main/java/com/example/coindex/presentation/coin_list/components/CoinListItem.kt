@@ -35,4 +35,5 @@ fun CoinListItem(
             overflow = TextOverflow.Ellipsis
         )
         Text(
-            text = if(coin.isActive) "
+            text = if(coin.isActive) "active" else "inactive",
+         
