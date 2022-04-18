@@ -36,4 +36,4 @@ fun CoinListItem(
         )
         Text(
             text = if(coin.isActive) "active" else "inactive",
-         
+            color = if(coin.isActive) Materi
