@@ -1,3 +1,5 @@
 package com.example.coindex.presentation.ui.theme
 
-import and
+import androidx.compose.ui.graphics.Color
+
+val DarkGray = C
