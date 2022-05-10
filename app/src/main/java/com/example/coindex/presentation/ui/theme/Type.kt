@@ -1,2 +1,2 @@
 package com.example.coindex.presentation.ui.theme
-imp
+import androidx.compose.material.Typograph
