@@ -11,4 +11,5 @@ val Typography = Typography(
         fontWeight = FontWeight.Bold,
         fontSize = 30.sp,
     ),
-  
+    h2 = TextStyle(
+        fontWeight = Fon
