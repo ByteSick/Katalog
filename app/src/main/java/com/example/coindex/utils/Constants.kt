@@ -1,1 +1,4 @@
-package com.exampl
+package com.example.coindex.utils
+
+object Constants {
+        c
