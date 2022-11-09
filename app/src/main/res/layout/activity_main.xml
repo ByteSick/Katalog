@@ -7,4 +7,5 @@
     tools:context=".presentation.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_co
