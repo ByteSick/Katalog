@@ -9,4 +9,7 @@ import org.mockito.Mock
 import org.mockito.MockitoAnnotations
 
 //I tried testing with both Junit and Mockito, but I couldn't get it to work in time
-class CoinRepository
+class CoinRepositoryImplTest {
+
+        @Mock
+         lateinit 
