@@ -12,4 +12,6 @@ import org.mockito.MockitoAnnotations
 class CoinRepositoryImplTest {
 
         @Mock
-         lateinit 
+         lateinit var coinApi: CoinApi
+
+        private lat
