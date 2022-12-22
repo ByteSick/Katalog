@@ -14,4 +14,4 @@ class CoinRepositoryImplTest {
         @Mock
          lateinit var coinApi: CoinApi
 
-        private lat
+        private lateinit var coinRepository: CoinRepositoryI
