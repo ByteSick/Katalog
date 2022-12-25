@@ -17,4 +17,5 @@ class CoinRepositoryImplTest {
         private lateinit var coinRepository: CoinRepositoryImpl
 
         @BeforeEach
-        
+        fun setUp() {
+            MockitoAnnotations.in
