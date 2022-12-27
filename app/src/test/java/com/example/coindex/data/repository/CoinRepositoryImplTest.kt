@@ -19,4 +19,8 @@ class CoinRepositoryImplTest {
         @BeforeEach
         fun setUp() {
             MockitoAnnotations.initMocks(this)
-            coinRepository = CoinRepositoryImpl(coinAp
+            coinRepository = CoinRepositoryImpl(coinApi)
+        }
+        @Test
+
+        su
