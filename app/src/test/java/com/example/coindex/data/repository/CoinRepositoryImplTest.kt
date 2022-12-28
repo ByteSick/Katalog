@@ -23,4 +23,5 @@ class CoinRepositoryImplTest {
         }
         @Test
 
-        su
+        suspend fun `getCoins() calls coinApi`(){
+        
