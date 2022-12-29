@@ -24,4 +24,5 @@ class CoinRepositoryImplTest {
         @Test
 
         suspend fun `getCoins() calls coinApi`(){
-        
+            val coins = listOf(CoinDto(
+   
