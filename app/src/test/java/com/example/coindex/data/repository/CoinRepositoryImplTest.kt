@@ -25,4 +25,5 @@ class CoinRepositoryImplTest {
 
         suspend fun `getCoins() calls coinApi`(){
             val coins = listOf(CoinDto(
-   
+                id = "1",
+                isA
