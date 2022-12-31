@@ -27,4 +27,5 @@ class CoinRepositoryImplTest {
             val coins = listOf(CoinDto(
                 id = "1",
                 isActive = true,
-                isNew = tr
+                isNew = true,
+                name = "name", rank = 1,
