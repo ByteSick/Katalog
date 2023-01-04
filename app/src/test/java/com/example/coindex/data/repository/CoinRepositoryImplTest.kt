@@ -31,4 +31,5 @@ class CoinRepositoryImplTest {
                 name = "name", rank = 1,
                 symbol = "symbol",
                 type = "type"))
-          
+            coinRepository.getCoins()
+            
