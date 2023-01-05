@@ -32,4 +32,4 @@ class CoinRepositoryImplTest {
                 symbol = "symbol",
                 type = "type"))
             coinRepository.getCoins()
-            
+            assertEquals(coins, coinRepository.getCo
