@@ -36,4 +36,5 @@ class CoinRepositoryImplTest {
         }
 
     @Test
-    suspend fun
+    suspend fun `getCoinById() calls coinApi`() {
+        val coin
