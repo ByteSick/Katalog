@@ -39,4 +39,5 @@ class CoinRepositoryImplTest {
     suspend fun `getCoinById() calls coinApi`() {
         val coin = CoinDto(
             id ="1",
-      
+            isActive = true,
+            isNew = true,
