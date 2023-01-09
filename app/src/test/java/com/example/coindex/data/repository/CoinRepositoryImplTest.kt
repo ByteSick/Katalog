@@ -41,3 +41,5 @@ class CoinRepositoryImplTest {
             id ="1",
             isActive = true,
             isNew = true,
+            name = "name",
+         
