@@ -42,4 +42,5 @@ class CoinRepositoryImplTest {
             isActive = true,
             isNew = true,
             name = "name",
-         
+            rank = 1,
+            symbol = "symbol
