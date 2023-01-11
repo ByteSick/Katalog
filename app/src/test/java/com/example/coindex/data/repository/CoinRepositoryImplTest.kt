@@ -46,4 +46,4 @@ class CoinRepositoryImplTest {
             symbol = "symbol",
             type = "type"
         )
-      
+        val result = coinRepository.getCoinBy
