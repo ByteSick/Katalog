@@ -47,4 +47,10 @@ class CoinRepositoryImplTest {
             type = "type"
         )
         val result = coinRepository.getCoinById("1")
-        assertEquals(coin, result
+        assertEquals(coin, result)
+
+    }
+}
+
+// Old Junit testing code
+// 
