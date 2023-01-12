@@ -46,4 +46,5 @@ class CoinRepositoryImplTest {
             symbol = "symbol",
             type = "type"
         )
-        val result = coinRepository.getCoinBy
+        val result = coinRepository.getCoinById("1")
+        assertEquals(coin, result
