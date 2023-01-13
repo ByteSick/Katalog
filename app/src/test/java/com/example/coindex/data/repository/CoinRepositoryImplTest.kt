@@ -53,4 +53,4 @@ class CoinRepositoryImplTest {
 }
 
 // Old Junit testing code
-// 
+// For CoinRepositoryImpl(CoinApi) 
