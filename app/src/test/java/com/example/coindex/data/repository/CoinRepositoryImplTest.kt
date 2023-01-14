@@ -53,4 +53,5 @@ class CoinRepositoryImplTest {
 }
 
 // Old Junit testing code
-// For CoinRepositoryImpl(CoinApi) 
+// For CoinRepositoryImpl(CoinApi) I receive an error that says
+// "c
