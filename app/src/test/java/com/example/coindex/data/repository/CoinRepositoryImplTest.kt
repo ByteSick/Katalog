@@ -54,4 +54,4 @@ class CoinRepositoryImplTest {
 
 // Old Junit testing code
 // For CoinRepositoryImpl(CoinApi) I receive an error that says
-// "c
+// "class Classifier 'CoinApi' does not have a companion objec
