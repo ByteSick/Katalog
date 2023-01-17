@@ -57,4 +57,6 @@ class CoinRepositoryImplTest {
 // "class Classifier 'CoinApi' does not have a companion object,
 // and thus must be initialized here", but coinApi is an interface
 // this has been raised in the issue tracker on Jetbrains
-// https://youtrack.jetbra
+// https://youtrack.jetbrains.com/issue/KT-39673
+
+//internal class
