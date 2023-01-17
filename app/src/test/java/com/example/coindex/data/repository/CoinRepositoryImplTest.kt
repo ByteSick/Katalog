@@ -56,4 +56,5 @@ class CoinRepositoryImplTest {
 // For CoinRepositoryImpl(CoinApi) I receive an error that says
 // "class Classifier 'CoinApi' does not have a companion object,
 // and thus must be initialized here", but coinApi is an interface
-// this has been raised in the issue tracker on Jet
+// this has been raised in the issue tracker on Jetbrains
+// https://youtrack.jetbra
