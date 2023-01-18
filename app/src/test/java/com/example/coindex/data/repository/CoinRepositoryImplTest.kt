@@ -60,4 +60,4 @@ class CoinRepositoryImplTest {
 // https://youtrack.jetbrains.com/issue/KT-39673
 
 //internal class CoinRepositoryImplTest {
-//    private 
+//    private val repository = CoinRepositoryImpl(CoinA
