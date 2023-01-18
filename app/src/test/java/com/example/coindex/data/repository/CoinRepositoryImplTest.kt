@@ -59,4 +59,5 @@ class CoinRepositoryImplTest {
 // this has been raised in the issue tracker on Jetbrains
 // https://youtrack.jetbrains.com/issue/KT-39673
 
-//internal class
+//internal class CoinRepositoryImplTest {
+//    private 
