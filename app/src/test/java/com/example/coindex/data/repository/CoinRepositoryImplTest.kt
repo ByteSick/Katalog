@@ -60,4 +60,7 @@ class CoinRepositoryImplTest {
 // https://youtrack.jetbrains.com/issue/KT-39673
 
 //internal class CoinRepositoryImplTest {
-//    private val repository = CoinRepositoryImpl(CoinA
+//    private val repository = CoinRepositoryImpl(CoinApi)
+//
+//    @Test
+//    suspend fun g
