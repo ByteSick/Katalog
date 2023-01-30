@@ -64,4 +64,5 @@ class CoinRepositoryImplTest {
 //
 //    @Test
 //    suspend fun getCoins() {
-//        val coins = rep
+//        val coins = repository.getCoins()
+//        assertNotNul
