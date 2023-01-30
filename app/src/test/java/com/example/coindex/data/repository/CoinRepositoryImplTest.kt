@@ -63,4 +63,5 @@ class CoinRepositoryImplTest {
 //    private val repository = CoinRepositoryImpl(CoinApi)
 //
 //    @Test
-//    suspend fun g
+//    suspend fun getCoins() {
+//        val coins = rep
