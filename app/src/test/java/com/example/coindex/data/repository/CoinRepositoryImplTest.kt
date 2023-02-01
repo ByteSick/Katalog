@@ -70,4 +70,5 @@ class CoinRepositoryImplTest {
 //    }
 //
 //    @Test
-//    suspe
+//    suspend fun getCoinById() {
+//        val id = 
