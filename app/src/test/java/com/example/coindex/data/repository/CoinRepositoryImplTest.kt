@@ -74,4 +74,5 @@ class CoinRepositoryImplTest {
 //        val id = "1"
 //        val expectedCoin = CoinDto(
 //            id = id,
-//            isAct
+//            isActive = true,
+//            isNew = 
