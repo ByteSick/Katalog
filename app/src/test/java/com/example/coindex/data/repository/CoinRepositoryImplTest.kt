@@ -72,4 +72,6 @@ class CoinRepositoryImplTest {
 //    @Test
 //    suspend fun getCoinById() {
 //        val id = "1"
-//        val expectedCoin = CoinD
+//        val expectedCoin = CoinDto(
+//            id = id,
+//            isAct
