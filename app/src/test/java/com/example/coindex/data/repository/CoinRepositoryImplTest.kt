@@ -76,4 +76,6 @@ class CoinRepositoryImplTest {
 //            id = id,
 //            isActive = true,
 //            isNew = false,
-//            name = "Bit
+//            name = "Bitcoin",
+//            rank = 1,
+//     
