@@ -78,4 +78,5 @@ class CoinRepositoryImplTest {
 //            isNew = false,
 //            name = "Bitcoin",
 //            rank = 1,
-//     
+//            symbol = "BTC",
+//          
