@@ -80,4 +80,5 @@ class CoinRepositoryImplTest {
 //            rank = 1,
 //            symbol = "BTC",
 //            type = "coin"
-//      
+//        )
+//        val actualCoin = repository.get
