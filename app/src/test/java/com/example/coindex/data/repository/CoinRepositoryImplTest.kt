@@ -81,4 +81,5 @@ class CoinRepositoryImplTest {
 //            symbol = "BTC",
 //            type = "coin"
 //        )
-//        val actualCoin = repository.get
+//        val actualCoin = repository.getCoinById(id)
+//        assertEqual
