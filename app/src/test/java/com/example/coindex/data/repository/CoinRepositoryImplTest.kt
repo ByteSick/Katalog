@@ -82,4 +82,5 @@ class CoinRepositoryImplTest {
 //            type = "coin"
 //        )
 //        val actualCoin = repository.getCoinById(id)
-//        assertEqual
+//        assertEquals(expectedCoin, actualCoin)
+//    }
