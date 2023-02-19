@@ -9,4 +9,5 @@ buildscript {
         google()
         jcenter()
         mavenCentral()
-        ma
+        maven {
+            url 'https://maven.goo
