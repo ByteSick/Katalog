@@ -12,4 +12,5 @@ buildscript {
         maven {
             url 'https://maven.google.com'
         }
-        mave
+        maven{
+            url  'https://jitpack.
