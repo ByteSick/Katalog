@@ -29,4 +29,5 @@ plugins {
 
 
 task clean(type: Delete) {
-    delet
+    delete rootProject.buildDir
+}
